@@ -324,6 +324,7 @@ nav>.drop {
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-bottom: 15rem;
+    font-size: 14rem;
 
 }
 
@@ -334,6 +335,7 @@ nav>.drop {
     text-align: center;
     line-height: 30rem;
     margin: 5rem 5rem;
+    font-size: 14rem;
 }
 
 .more>.map1 {

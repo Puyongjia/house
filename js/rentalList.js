@@ -3,6 +3,8 @@ var a1 = document.getElementsByClassName('a1');
 var drop1 = document.getElementsByClassName('drop1')[0];
 var mba = document.getElementById('mba');
 var pullDown = document.getElementsByClassName('pullDown')[0]
+
+
 function fu() {
     drop1.style.display = 'flex';
     mba.style.display = 'block';
