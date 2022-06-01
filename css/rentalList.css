@@ -221,7 +221,7 @@ nav>.drop{
 }
 
 
-/* .drop>.a1>span{
+.drop>.a1>.span2{
     display: inline-block;
      border-top: 5rem solid transparent;
      border-bottom: 5rem solid #ff8a00;
@@ -229,7 +229,7 @@ nav>.drop{
      border-left: 5rem solid transparent;
       margin-left: 8rem;
       margin-bottom: 7rem;
-} */
+}
 
  
 /* ------------------2------------- */

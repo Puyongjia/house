@@ -1,0 +1,146 @@
+
+
+nav>.head{
+    width: 100%;
+    display: flex;      
+    height: 45rem; 
+    border-bottom: 1px solid #ccc;
+}
+nav>.head>p{
+    height: 43rem;
+    line-height: 43rem;
+    font-size: 14rem;
+    font-weight: 600;
+    text-indent: 13rem;
+}
+
+nav>.head>p>span{
+    font-size: 14rem;
+    font-weight: 400;
+}
+
+nav>.input{
+    width: 100%;
+    height: 70rem;
+    background: #F5F5F5;
+    position: relative;
+}
+
+#ipt{
+    width: 320rem;
+    height: 43rem;
+    margin: 10rem 20rem;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 14rem;
+    text-indent: 13rem;
+}
+
+nav>.input>span:nth-of-type(1){
+    position: absolute;
+    top: 24rem;
+    right: 90rem;
+
+}
+
+nav>.input>span:nth-of-type(2){
+    display: inline-block;
+    position: absolute;
+    top: 21rem;
+    right: 53rem;
+    width: 25rem;
+    height: 25rem;
+    background: url(../img/SecondHandList/search_03.png) no-repeat;
+     background-size: 20rem ;
+}
+
+
+nav>.drop{
+    width: 100%;
+    height: 45rem;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    line-height: 45rem;
+    
+}
+
+.drop>.a1{
+    width: 60rem;
+    height: 46rem;
+    font-size: 20rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+.drop>.a1>span{
+     display: inline-block;
+      border-top: 5rem solid #ccc;
+      border-bottom: 5rem solid transparent;
+      border-right: 5rem solid transparent;
+      border-left: 5rem solid transparent;
+       margin-left: 8rem;
+       margin-bottom: 7rem;
+}
+
+
+
+.centex{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background: #F5F5F5;
+  }
+
+.main{
+    width: 90%;
+    height: 120rem;
+     margin: 0 auto;
+     /* background: yellowgreen;      */
+     display: flex;
+     align-items: center;
+     padding: 20rem 0rem;
+     border-bottom: 1px solid #ff8a00 ;
+
+}
+/*最后一个没有下划线 */
+.main:last-of-type{
+    border-bottom: none;
+}
+
+.main>img{
+     width: 94rem;
+     height: 94rem;
+     flex:1;
+}
+
+.main>.rightDiv{
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10rem;
+    font-size: 14rem;
+}
+
+.main>.rightDiv>h2{
+    font-size: 16rem;
+}
+
+.rightDiv>div{
+    color: #b0b0b0;
+}
+
+.price{
+    width: 100%;
+    display: flex;   
+    justify-content: flex-start; 
+}
+
+
+strong{
+    color: #ff8a00;
+}

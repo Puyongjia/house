@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>租房</title>
     <link rel="stylesheet" href="./css/rentalList.css">
     <link rel="stylesheet" href="./css/top.css">
     <script src="./js/setRem.js"></script>
@@ -38,10 +38,10 @@
 
 
           <div class="drop">
-              <a href="" class="a1">区域<span class="span1"></span></a>
-              <a href="" class="a1">月租<span ></span></a>
-              <a href=""class="a1">房型<span></span></a>
-              <a href="" class="a1">更多<span></span></a>
+              <a href="#" class="a1" onclick="fn(this)">区域<span class="span1""></span></a>
+              <a href="#" class="a1"  onclick="fn(this)">月租<span class="span1"  onclick="fn(this)"></span></a>
+              <a href="#"class="a1"  onclick="fn(this)">房型<span class="span1" onclick="fn(this)"></span></a>
+              <a href="#" class="a1"  onclick="fn(this)">更多<span class="span1" onclick="fn(this)"></span></a>
           </div>
 
            <div class="centex">
@@ -97,6 +97,7 @@
             </div> 
         </div>
 
+        
         <div class="pullDown">
             <div class="leftPull">
                 <h2>区域</h2>
@@ -213,6 +214,13 @@
     </footer>
 </body>
 
-</html>
+</html> 
+<script>
+            var span=  document.getElementsByClassName('span1')[0];
+              function fn(this  ){
+                this.className='span2';
+              }
+</script>
+
 
  
