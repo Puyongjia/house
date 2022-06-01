@@ -1,18 +1,14 @@
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<html>
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/top.css">
-    <link rel="stylesheet" href="./css/findPassword.css">
-    <link rel="stylesheet" href="./css/rentalDetails.css">
-    <title>Document</title>
+    <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+    <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+    <title>百度地图API自定义地图</title>
+    <!--引用百度地图API-->
     <style type="text/css">
         html,
         body {
@@ -41,135 +37,9 @@
 </head>
 
 <body>
-    <header>
-        <a href="./index.html">
-            <img src="./img/logo.jpg" alt="">
-        </a>
-        <div>
-            <a href="##">
-                <img src="./img/my.jpg" alt="">
-            </a>
-            <a href="##">
-                <img src="./img/xiazai.jpg" alt="">
-            </a>
-        </div>
-    </header>
-    <ul class="finpassword">
-        <li>
-            <p><span>首页 </span> > 北京租房 > 房源信息</p>
-        </li>
-    </ul>
-    <div class="rD">
-        <div>分享</div>
-    </div>
-    <div class="rD_">
-        <p>天鹅湾小区精装两居，满五唯一，业主换房急售
-        </p>
-        <div>
-            <img src="./img/rentalList/xin.png" alt="">
-            <p>关注</p>
-        </div>
-    </div>
-    <ul class="rD_1">
-        <li>
-            租金
-            <p>2300元/月</p>
-        </li>
-        <li>
-            房型
-            <p>2室1厅</p>
-        </li>
-        <li>
-            面积
-            <p>204平米</p>
-        </li>
-    </ul>
-    <ul class="rD_2">
-        <li>楼层:高楼/17层
-        </li>
-        <li>朝向:南北
-        </li>
-        <li>装修:精装
-        </li>
-        <li>供暖:集体供暖
-        </li>
-        <li>年代:2007年</li>
-        <li>楼型:板楼
-        </li>
-    </ul>
-    <div class="rD_3">
-        <h2>经纪人房评</h2>
-        <p>地理位置:晶都国际处于酒仙桥中心地带，毗邻北京三大商圈，紧邻丽都商圈，隔四环与望京商圈相望，西南紧挨燕莎商圈，地理位置优越。周边配套:颐堤港商业中心，兆维大厦...
-        </p>
-    </div>
-    <div class="rD_3">
-        <h2>看房客户记录
-        </h2>
-        <p>近一个月新增O位看房客户，共50位
-        </p>
-    </div>
-    <div class="rD_3">
-        <h2>看房客户记录
-        </h2>
-        <div class="dt">
-            <h3>地址：[郑州]国奥大厦</h2>
-                <div id="dituContent"></div>
-        </div>
-    </div>
-    <div class="rD_3">
-        <h2>看房客户记录
-        </h2>
-        <p>3室2厅，146平米，<span>5000元</span>
-        </p>
-        <p>签约日期:2015-02-26
-        </p>
-    </div>
-    <div class="rD_4">
-        <img src="./img/rentalList/man.png" alt="">
-        <div>
-            <p>张三</p>
-            <p>4001581855转0008</p>
-        </div>
-        <ul>
-            <li>
-                <img src="./img/rentalList/icon1.png" alt="">
-                <p>致电</p>
-            </li>
-            <li>
-                <img src="./img/rentalList/icon2.png" alt="">
-                <p>短信</p>
-            </li>
-        </ul>
-    </div>
-    <footer>
-        <p>北京找房无忧 > 首页</p>
-        <ul>
-            <li>
-                <img src="./img/apple.png" alt="">
-                <div>
-                    <p>iPhone</p>
-                    <p>客户端</p>
-                </div>
-            </li>
-            <li>
-                <img src="./img/android.png" alt="">
-                <div>
-                    <p>Android</p>
-                    <p>客户端</p>
-                </div>
-            </li>
-        </ul>
-        <div>
-            <p>北京找房无忧房地产经纪公司</p>
-            <p>网络经营许可证京ICP备20160812号</p>
-        </div>
-    </footer>
+    <!--百度地图容器-->
+    <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
 </body>
-
-</html>
-<script src="./js/setRem.js"></script>
-
-
 <script type="text/javascript">
     //创建和初始化地图函数：
     function initMap() {
@@ -301,3 +171,5 @@
 
     initMap();//创建和初始化地图
 </script>
+
+</html>

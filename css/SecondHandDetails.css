@@ -1,0 +1,85 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.Shd {
+    position: relative;
+    width: 100%;
+    height: 217rem;
+    background: url(../img/SecondHandList/img.png) no-repeat;
+    background-size: contain;
+}
+
+.Shd>div {
+    position: absolute;
+    right: 30rem;
+    bottom: 20rem;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 7rem 12rem;
+    border-radius: 15rem;
+    color: #fff;
+}
+
+.Shd_ {
+    background-color: #fff;
+    padding: 20rem;
+    height: 170rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Shd_>h2 {
+    font-size: 22rem;
+}
+
+.Shd_>p {
+    font-size: 18px;
+    background: url(../img/SecondHandList/phone.png) no-repeat right 0rem;
+    background-size: 14rem;
+}
+
+.Shd_>p>span {
+    color: red;
+}
+
+.Shd_>span {
+    font-size: 15rem;
+    color: #999;
+}
+
+.Shd_>ul {
+    display: flex;
+
+}
+
+.Shd_>ul li {
+    padding: 8rem 10rem;
+    font-size: 12rem;
+    color: #849aae;
+    background-color: #DEE9F0;
+    margin-right: 15rem;
+}
+
+.Shd_1 {
+    margin-top: 15rem;
+    background-color: #fff;
+    padding: 0 20rem;
+    border: 1px solid #e3e3e3;
+}
+
+.Shd_1>li {
+    padding: 20rem 0;
+    display: flex;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 14rem;
+}
+
+.Shd_1>li>div {
+    width: 50%;
+}
+
+.Shd_11 {
+    justify-content: center;
+    color: #999;
+}
