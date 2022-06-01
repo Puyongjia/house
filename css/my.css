@@ -15,119 +15,124 @@ html {
     font-size: 6.25%;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-direction: column;
 }
 
-header>.head{
-       width: 100%;
-       height: 231rem;
-       display: flex;
-       justify-content:flex-end;
-       align-items: flex-start;
-       margin: 0 auto   ;
-       background: url(../img/my/bg1.png) no-repeat;
-       background-size: cover;
+header>.head {
+    width: 100%;
+    height: 231rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 auto;
+    background: url(../img/my/bg1.png) no-repeat;
+    background-size: cover;
 
 }
-.head>.box>img{
+
+.head>.box>img {
     width: 60rem;
-    height:  60rem; 
+    height: 60rem;
     margin-right: 5rem;
 }
 
-.head>p{
+.head>p {
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     width: 60rem;
-    height: 70rem;  
+    height: 70rem;
     align-items: center;
     margin-top: 10rem;
     font-size: 14rem;
     color: white;
-   
+
 }
-p>img{
+
+p>img {
     width: 17rem;
     margin-bottom: 5rem;
-   
+
 }
 
-.box{
+.box {
     width: 200rem;
-   height: 231rem;;
+    height: 231rem;
+    ;
     display: flex;
-     justify-content: center;
-     align-items: flex-end;
-     flex-direction: column;
-     padding-right: 20rem;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 20rem;
 }
- .box>button{
-     width: 82rem;
-     height: 38rem;
-     margin-top: 10rem;
-     background-color: #E77308;
-     border: 1px solid #fff;
-     color: #fff;
-     font-size: 14rem   ;
- }
 
- .listul{
-     width: 95%;
-     margin: 0 auto;
-     display: flex;
-     flex-direction: column;
- }
+.box>a>button {
+    width: 82rem;
+    height: 38rem;
+    margin-top: 10rem;
+    background-color: #E77308;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14rem;
+}
 
- .listul>li{
-     width: 100%;
-     height: 55rem;
-     /* background: yellowgreen; */
-     display: flex;
-     justify-content: space-between;
-     line-height: 55rem;
+.listul {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 
-     border-bottom: 1px solid #dcdcdc ;
- }
+.listul>li {
+    width: 100%;
+    height: 55rem;
+    /* background: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 55rem;
+
+    border-bottom: 1px solid #dcdcdc;
+}
 
 
- .listul>li>p{
-     width: 150rem;
-     text-indent: 25rem;
-     margin-left: 10rem;   
-     font-size: 14rem;
-     color: #666666;
-    
- }
+.listul>li>p {
+    width: 150rem;
+    text-indent: 25rem;
+    margin-left: 10rem;
+    font-size: 14rem;
+    color: #666666;
 
- .listul>.lis1>p{
+}
+
+.listul>.lis1>p {
     background: url(../img/my/icon1.png) no-repeat 1rem;
-    background-size: 20rem; 
-   
- }
- .listul>.lis2>p{
+    background-size: 20rem;
+
+}
+
+.listul>.lis2>p {
     background: url(../img/my/icon2.png) no-repeat 1rem;
-    background-size: 20rem; 
- }
+    background-size: 20rem;
+}
 
- 
- 
- .listul>.lis3>p{
+
+
+.listul>.lis3>p {
     background: url(../img/my/icon3.png) no-repeat 1rem;
-    background-size: 20rem; 
- }
+    background-size: 20rem;
+}
 
- .listul>.lis4>p{
+.listul>.lis4>p {
     background: url(../img/my/icon4.png) no-repeat 1rem;
-    background-size: 20rem; 
- } 
+    background-size: 20rem;
+}
 
- .listul>li>span{
+.listul>li>span {
     width: 30rem;
     text-indent: 20rem;
     background: url(../img/my/right.png) no-repeat 1rem;
-    background-size: 10rem;     
- }
+    background-size: 10rem;
+}
