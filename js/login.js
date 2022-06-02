@@ -24,6 +24,7 @@ var sjh = document.getElementById('sjh');
 var st = /^1[3456789]\d{9}$/
 var fsyz = document.getElementsByClassName('fsyz')[0];
 var time;
+
 sjh.oninput = function () {
     if (st.test(sjh.value)) {
         fsyz.style.pointerEvents = ''

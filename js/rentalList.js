@@ -29,6 +29,7 @@ touch.on(a1[4], 'tap', function () {
     ulWu.style.display = 'none';
     more.style.display = 'none';
 })
+
 var ulpeice = document.getElementsByClassName('ulpeice')[0]
 touch.on(a1[1], 'tap', function () {
     drop1.style.display = 'flex';
